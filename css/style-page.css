@@ -1,0 +1,111 @@
+.main {
+    margin-top: 10px;
+}
+.return__button {
+    width: 120px;
+    height: 30px;
+    background-color: #643949;
+    border: 0;
+    border-radius: 5px;
+    color: #23242a;
+    font-family: Comforta;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.return__button:hover {
+    animation: button 300ms forwards;
+}
+@keyframes button {
+    0% {
+        background-color: #643949;
+        color: #23242a;
+        scale: 1;
+    }
+    100% {
+        background-color: #15161c;
+        color: #643949;
+        scale: 1.1;
+    }
+}
+
+.page {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page__infoWrapper {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #643949;
+    border-radius: 5px;
+}
+
+.page__titleWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.page__title {
+    font-size: 30px;
+    font-family: Yanone;
+    font-weight: bold;
+    color: #15161c;
+}
+
+.page__genre {
+    font-size: 30px;
+    font-family: Yanone;
+    font-weight: bold;
+    color: #23242a;
+}
+
+.page__img {
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.page__year {
+    margin-left: 25px;
+    color: #23242a;
+    font-family: Comforta;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.page__age {
+    margin-left: 25px;
+    color: #23242a;
+    font-family: Comforta;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.page__desc {
+    margin-left: 25px;
+    color: #15161c;
+    font-family: Comforta;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.page__rating {
+    margin-left: 25px;
+    color: #15161c;
+    font-family: Yanone;
+    font-size: 23px;
+}
+
+.page__trailer {
+    align-self: center;
+    margin-top: 25px;
+    border-radius: 5px;
+}

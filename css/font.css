@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Comforta';
+    src: local('Comforta'),
+    url(../fonts/Comfortaa-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Yanone';
+    src: local('Yanone'),
+    url(../fonts/YanoneKaffeesatz-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Yanone';
+    src: local('Yanone'),
+    url(../fonts/YanoneKaffeesatz-Bold.ttf);
+    font-weight: bold;
+}
+

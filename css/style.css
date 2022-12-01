@@ -1,0 +1,452 @@
+body {
+    background-color: #23242a;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.wrapper {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.header {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c0c0c0;
+    height: 60px;
+    align-items: center;
+}
+
+.nav {
+    max-width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.nav__itemList {
+    font-family: Comforta;
+    font-size: 14px;
+    color: #cecece;
+}
+.nav__itemList:hover {
+    text-decoration: underline;
+}
+
+.nav__logo {
+    width: 100px;
+    height: 50px;
+    background-image: url("../img/logo.svg");
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.personal {
+    display: flex;
+    justify-content: space-evenly;
+    width: 190px;
+    height: 40px;
+    align-items: center;
+    background-color: #643949;
+    border-radius: 30px;
+}
+
+.personal__searchIcon {
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/search.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.personal__messageIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.personal__personIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.personal__search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    background-color: #482630;
+    border-radius: 15px;
+}
+
+.personal__searchText {
+    font-family: Comforta;
+    font-size: 14px;
+    color: #D28BA9;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    max-width: 1300px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.title {
+    color: #D28BA9;
+    font-family: Yanone;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.filter {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 800px;
+    height: 110px;
+    background-color: #643949;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.filter__genreWrapper {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter__genreTitle {
+    margin-bottom: 5px;
+    font-family: Yanone;
+    font-weight: bold;
+    color: #23242a;
+    font-size: 30px;
+}
+
+.filter__genre {
+    width: 150px;
+    background-color: #23242a;
+    border-radius: 5px;
+    border: 0;
+    height: 40px;
+    color: #D28BA9;
+    font-family: Comforta;
+    font-size: 13px;
+}
+
+
+.filter__yearWrapper {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter__yearTitle {
+    margin-bottom: 5px;
+    font-family: Yanone;
+    font-weight: bold;
+    color: #23242a;
+    font-size: 30px;
+}
+
+.filter__year {
+    width: 150px;
+    background-color: #23242a;
+    border-radius: 5px;
+    border: 0;
+    height: 40px;
+    color: #D28BA9;
+    font-family: Comforta;
+    font-size: 13px;
+}
+
+.filter__otherWrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+
+.filter__ageWrapper {
+    margin-top: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter__ageTitle, .filter__ratingTitle {
+    font-family: Yanone;
+    font-weight: bold;
+    font-size: 20px;
+    color: #23242a;
+    margin-right: 5px;
+}
+
+.filter__age {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.filter__ratingWrapper {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__ratingUp {
+    background-image: url("../img/up.svg");
+}
+
+.filter__ratingDown {
+    background-image: url("../img/down.svg");
+}
+
+.filter__ratingUp, .filter__ratingDown {
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 2px;
+}
+
+.filter__ratingUp:hover, .filter__ratingDown:hover {
+    background-color: #D28BA9;
+}
+
+.filter__reset {
+    width: 100px;
+    height: 40px;
+    background-color: #23242a;
+    color: #D28BA9;
+    border: 0;
+    border-radius: 5px;
+    font-family: Comforta;
+    font-size: 13px;
+}
+
+.cards {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards__link {
+
+}
+.cards__card {
+    width: 200px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    background-color: #643949;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+.cards__card:hover {
+    animation: scale 300ms forwards;
+}
+@keyframes scale {
+    0% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 1.03;
+    }
+}
+
+.cards__img {
+    width: 200px;
+    height: 300px;
+}
+
+.cards__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__name {
+    font-family: Yanone;
+    font-weight: bold;
+    color: #23242a;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.cards__genre {
+    font-family: Comforta;
+    color: #23242a;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.cards__otherInfo {
+    font-family: Comforta;
+    color: #15161c;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+}
+
+.cards__desc {
+    font-family: Yanone;
+    color: #15161c;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.cards__rating {
+    font-family: Comforta;
+    font-size: 15px;
+    color: #15161c;
+    display: flex;
+}
+
+.cards__ratingText {
+    margin-right: 2px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    border-top: 1px solid #c0c0c0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 100px;
+    height: 50px;
+    background-image: url("../img/logo.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.footer__itemList {
+    font-family: Comforta;
+    font-size: 14px;
+    color: #cecece;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.footer__itemList:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .nav__list {
+        max-width: 450px;
+    }
+
+    .nav__itemList {
+        font-size: 12px;
+    }
+
+    .cards {
+        max-width: 800px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .cards__card {
+        margin-right: 10px;
+    }
+
+    .filter {
+        width: 600px;
+        height: 90px;
+    }
+
+    .filter__genreWrapper {
+        width: 100px;
+    }
+
+    .filter__genreTitle {
+        font-family: Yanone;
+        font-size: 25px;
+    }
+
+    .filter__genre {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+
+    .filter__yearWrapper {
+        width: 100px;
+    }
+
+    .filter__yearTitle {
+        font-size: 25px;
+    }
+
+    .filter__year {
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .filter__otherWrapper {
+        height: 60px;
+    }
+
+    .filter__ageWrapper {
+        margin-top: 0;
+        width: 180px;
+    }
+
+    .filter__ageTitle, .filter__ratingTitle {
+        font-family: Yanone;
+        font-weight: bold;
+        font-size: 20px;
+        color: #23242a;
+        margin-right: 5px;
+    }
+
+    .filter__reset {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+}
+
+

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script defer src="js/script.js"> </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="nav">
+                <a href="#"><div class="nav__logo"></div></a>
+                <ul class="nav__list">
+                    <li class="nav__itemList"><a href="#">Подписка</a> </li>
+                    <li class="nav__itemList"><a href="#">Что нового</a> </li>
+                    <li class="nav__itemList"><a href="#">Фильмы</a> </li>
+                    <li class="nav__itemList"><a href="#">Сериалы</a> </li>
+                    <li class="nav__itemList"><a href="#">Мультфильмы</a> </li>
+                    <li class="nav__itemList"><a href="#">TV+</a> </li>
+                </ul>
+            </div>
+            <div class="personal">
+                <div class="personal__search">
+                    <div class="personal__searchIcon"> </div>
+                    <p class="personal__searchText">Поиск</p>
+                </div>
+                <a href="#"><img src="img/message.svg" class="personal__messageIcon" alt="icon"></a>
+                <a href="#"><img src="img/person.svg" class="personal__personIcon" alt="icon"></a>
+            </div>
+        </header>
+
+        <main class="main">
+            <h1 class="title">Фильмы</h1>
+
+            <div class="filter">
+                <div class="filter__genreWrapper">
+                    <label for="genre" class="filter__genreTitle">Жанр</label>
+
+                    <select class="filter__genre" id="genre">
+                        <option value="null" selected="selected">Все жанры</option>
+                        <option value="comedy">Комедии</option>
+                        <option value="drama">Драмы</option>
+                        <option value="thriller">Триллеры</option>
+                        <option value="fantasy">Фэнтези</option>
+                        <option value="horror">Хорроры</option>
+                        <option value="soapOpera">Мелодрамы</option>
+                        <option value="action">Боевики</option>
+                    </select>
+                </div>
+
+                <div class="filter__yearWrapper">
+                    <label for="year" class="filter__yearTitle">Год выпуска</label>
+
+                    <select class="filter__year" id="year">
+                        <option value="null" selected="selected">Все года</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014-2010">2014-2010</option>
+                        <option value="2009-2000">2009-2000</option>
+                        <option value="<2000"><2000</option>
+                    </select>
+                </div>
+
+                <div class="filter__otherWrapper">
+                    <div class="filter__ageWrapper">
+                        <label for="age" class="filter__ageTitle">Возрастное ограничение</label>
+                        <input class="filter__age" type="checkbox" id="age">
+                    </div>
+
+                    <div class="filter__ratingWrapper">
+                        <p class="filter__ratingTitle">Рейтинг</p>
+                        <div class="filter__ratingButtons">
+                            <button type="button" class="filter__ratingUp"> </button>
+                            <button type="button" class="filter__ratingDown"> </button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="filter__reset">Сброс</button>
+            </div>
+
+            <div class="cards">
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <a href="#"><div class="footer__logo"></div></a>
+            <ul class="footer__list">
+                <li class="footer__itemList"><a href="#">Подписка</a> </li>
+                <li class="footer__itemList"><a href="#">Что нового</a> </li>
+                <li class="footer__itemList"><a href="#">Фильмы</a> </li>
+                <li class="footer__itemList"><a href="#">Сериалы</a> </li>
+                <li class="footer__itemList"><a href="#">Мультфильмы</a> </li>
+                <li class="footer__itemList"><a href="#">TV+</a> </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
