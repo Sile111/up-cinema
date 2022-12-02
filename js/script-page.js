@@ -3,7 +3,6 @@
 let pagePlace = document.querySelector('.page');
 
 let currentPage = window.location.href.toString();
-console.log(currentPage.substr(currentPage.length - 1));
 
 for (let i = 0; i < movies.length; i++) {
     if (i === +currentPage.substr(currentPage.length - 1)) {

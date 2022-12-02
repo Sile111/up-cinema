@@ -9,7 +9,7 @@ movies[0] = {
     age: '18+',
     desc: 'Север Великих равнин. Девушка Нару из племени команчей больше всего на свете хочет стать достойной охотницей, но близкие не воспринимают её увлечение всерьёз. Когда отряд бывалых охотников идёт в лес на поиски атакованного пумой соплеменника, Нару как опытный следопыт отправляется с ними и вскоре замечает странные следы...',
     rating: 6.6,
-    pic: '../img/prey.jpg',
+    pic: './img/prey.jpg',
 
     valueGenre: 'thriller',
     valueYear: '2022',
@@ -24,7 +24,7 @@ movies[1] = {
     age: '18+',
     desc: 'Cемьянин Хатч живёт жизнью обычного аудитора, пока в его дом не вламываются грабители. И это бы сошло им с рук, если бы они не забрали браслетик его маленькой дочки. Не в силах это терпеть, Хатч отправляется на поиски наглецов, а на обратном пути ввязывается в драку с пьяными хулиганами.',
     rating: 7.4,
-    pic: '../img/nobody.jpg',
+    pic: './img/nobody.jpg',
 
     valueGenre: 'action',
     valueYear: '2021',
@@ -39,7 +39,7 @@ movies[2] =  {
     age: '12+',
     desc: 'Более двух тысяч лет назад влюблённый в Клеопатру древнеримский генерал Марк Антоний подарил ей три яйца, украшенные золотом и драгоценными камнями. В начале XX века не были обнаружены две из них: теперь одно яйцо выставляется в музее Рима, другое содержится в частной коллекции, а местонахождение третьего неизвестно.',
     rating: 6.5,
-    pic: '../img/red.jpg',
+    pic: './img/red.jpg',
 
     valueGenre: 'comedy',
     valueYear: '2021',
@@ -54,7 +54,7 @@ movies[3] = {
     age: '16+',
     desc: 'Параллельно нашему миру существует иной — мир, где правят крайне опасные и наделенные невероятной силой монстры. Именно сюда через пространственный портал попадают капитан Артемис и ее отряд элитных бойцов. И теперь им предстоит проверить себя на прочность перед лицом невиданной ранее угрозы.',
     rating: 5.8,
-    pic: '../img/monsterHunter.jpg',
+    pic: './img/monsterHunter.jpg',
 
     valueGenre: 'fantasy',
     valueYear: '2020',
@@ -69,7 +69,7 @@ movies[4] = {
     age: '18+',
     desc: 'Любящий отец специально для дня рождения сына находит костюм клоуна, надевает его и выступает на празднике к радости детей. Но он и не подозревал, что снять клоунские одежды окажется не так просто - на костюм наложено проклятие, которое превращает его владельца в адского пожирателя детей.',
     rating: 5.3,
-    pic: '../img/clown.jpg',
+    pic: './img/clown.jpg',
 
     valueGenre: 'horror',
     valueYear: '2014-2010',
@@ -84,7 +84,7 @@ movies[5] = {
     age: '18+',
     desc: '12-летний Зейн не может точно ответить на вопрос, сколько у него братьев и сестер, но уверен, что детей в его семье должно было быть меньше. Несмотря на юный возраст, Зейн нелегально работает, следит за младшими, помогает старшим, ищет деньги и документы на эмиграцию в Швецию. Он смотрит на мир с нескрываемой ненавистью.',
     rating: 8.1,
-    pic: '../img/kap.jpg',
+    pic: './img/kap.jpg',
 
     valueGenre: 'drama',
     valueYear: '2018',
@@ -99,7 +99,7 @@ movies[6] = {
     age: '16+',
     desc: 'Военный Рэй Гаррисон возвращается из очередной горячей точки к любимой красавице-жене. Супруги проводят отпуск в Европе, но счастье длится недолго — террористы, не сумев вытянуть из Рэя нужную им информацию, убивают жену, а затем и его самого.  Но вскоре корпорация RST возвращает его к жизни.',
     rating: 5.8,
-    pic: '../img/blood.jpg',
+    pic: './img/blood.jpg',
 
     valueGenre: 'action',
     valueYear: '2020',
@@ -114,7 +114,7 @@ movies[7] = {
     age: '12+',
     desc: 'Благодаря древнему волшебнику 14-летний парень превращается во вполне себе взрослого супергероя Шазама. В душе он остается ребенком, поэтому ведёт себя соответствующе и оттягивается на полную катушку. Шазам проверяет границы своих возможностей с бесшабашностью ребенка.',
     rating: 6.7,
-    pic: '../img/shazam.jpg',
+    pic: './img/shazam.jpg',
 
     valueGenre: 'fantasy',
     valueYear: '2019',
@@ -129,7 +129,7 @@ movies[8] = {
     age: '18+',
     desc: 'Бывшая танцовщица Ева прикована к инвалидному креслу. Однажды подруга дарит ей на день рождения старинный деревянный календарь похожий на маленький комод. Оказывается, что за каждой дверцей календаря, которые нужно открывать в соответствующие числа месяца, лежит волшебная конфета — исполнение желания.',
     rating: 6.3,
-    pic: '../img/calendar.jpg',
+    pic: './img/calendar.jpg',
 
     valueGenre: 'horror',
     valueYear: '2020',
@@ -144,7 +144,7 @@ movies[9] = {
     age: '16+',
     desc: 'История взросления четырёх непохожих друг на друга сестер. Где-то бушует Гражданская война, но проблемы, с которыми сталкиваются девушки, актуальны как никогда: первая любовь, горькое разочарование, томительная разлука и непростые поиски себя и своего места в жизни.',
     rating: 7.8,
-    pic: '../img/women.jpg',
+    pic: './img/women.jpg',
 
     valueGenre: 'soapOpera',
     valueYear: '2019',
@@ -247,21 +247,6 @@ let filter = () => {
     })
 }
 
-// let filterGenreNull = () => {
-//     sortedByAll = movies.filter(function (elem) {
-//         if (elem.valueYear === document.getElementById('year').value) {
-//             filteredByAll[filteredByAll.length] = elem;
-//         }
-//     })
-// }
-// let filterYearNull = () => {
-//     sortedByAll = movies.filter(function (elem) {
-//         if (elem.valueGenre === document.getElementById('genre').value) {
-//             filteredByAll[filteredByAll.length] = elem;
-//         }
-//     })
-// }
-
 let sortArr = (arr) => {
     getAllInfo();
 
@@ -294,12 +279,11 @@ let sortArr = (arr) => {
 }
 
 let resetFunc = () => {
-    document.getElementById('year').value = 'null';
-    document.getElementById('genre').value = 'null';
+    document.querySelector('.filter__genre').value = 'null';
+    document.querySelector('.filter__year').value = 'null';
     filteredByAll.splice(0, filteredByAll.length);
     filteredByAll.push.apply(filteredByAll, movies);
     sortArr(filteredByAll);
-    console.log('ev');
 }
 
 let genreSelect = document.querySelector('.filter__genre');
@@ -333,7 +317,7 @@ yearSelect.addEventListener('change', (event) => {
 });
 
 let resetButton = document.querySelector('.filter__reset');
-resetButton.addEventListener('onclick', (event) => {
+resetButton.addEventListener('click', (event) => {
     resetFunc();
 })
 
